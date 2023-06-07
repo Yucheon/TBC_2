@@ -24,6 +24,7 @@
     <ProjectGuid>{92b80c7f-4dfc-4abe-9237-21afe589fa4e}</ProjectGuid>
     <RootNamespace>TBCReview2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Chater07_09</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
