@@ -18,6 +18,16 @@ public:
 		m_data = new int[length];
 	}
 
+	IntArray(const std::initializer_list<int>& list)
+		:IntArray(list.size())
+	{
+		int count = 0;
+		for (auto& element : list)
+		{
+			m_data[count] = element;
+			++count;
+		}
+	}
 	~IntArray()
 	{
 		delete[] this->m_data;
